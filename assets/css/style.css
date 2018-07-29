@@ -115,17 +115,36 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 980px) {
-
+    footer {
+        width: 980px;
+        overflow:hidden;
+    }
 
 }
 @media only screen and (max-width: 768px){
+    footer {
+        width: 768px;
+        overflow:hidden;
+    }
 
 }
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     header {
         position: fixed;
+        
     }
     .MainLogo {
-        margin:auto;
+        margin-left: 10px
+    }
+    
+    footer {
+        width: 640px;
+        overflow:hidden;
+    }
+    .navigation {
+        margin: 0px;
+    }
+    .sectionh2 {
+        margin-top: 40px;
     }
 }
