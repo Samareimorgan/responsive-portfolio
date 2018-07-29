@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("assets/images/sun-pattern.png");
+    background-color: #cccccc;
+}
+
+header{
+    font-size: 20px;
+    font-family: Georgia, Times, Times New Roman serif;
+    border-bottom: 2px solid #cccccc;
+    background-color:#ffffff;
+    padding-bottom: 20px;
+}
+.MainLogo {
+    background: #4aaaa5;
+    color: #ffffff;
+    display: inline;
+    margin-left: 185px;
+    padding-bottom: 20px;
+
+}
+
+.navigation {
+    padding-bottom: 15px;
+    margin-right: 185px;
+    letter-spacing: 2px;
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.active {
+    color:blue
+}
+
+.sectionh2 {
+    border-bottom: 2px solid #cccccc;
+}
+
+#MainContent {
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    width: 960px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    overflow: auto;
+}
+
+#SamanthasPic {
+    float: left;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 5px solid #4aaaa5;
+}
+input[type=text], select, textarea {
+    width: 960px;
+    padding: 12px; 
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+.gallery {
+    background: #ffffff;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+} 
+
+.desc {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    width: 278px;
+    border: 1px solid #cccccc;
+}
+
+@media only screen and (max-width: 980px) {
+
+
+}
+@media only screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px) {
+    header {
+        position: fixed;
+    }
+    .MainLogo {
+        margin:auto;
+    }
+}
